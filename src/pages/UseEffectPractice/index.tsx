@@ -12,7 +12,9 @@ import DataFetch from '../DataFetch/index'
     // },[]);
 
     function handleClick(){
-        setCount(count+1);
+        setCount(count => {
+            return count+1;
+        });
     }
 
     //this varition will run on every render

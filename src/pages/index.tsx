@@ -4,6 +4,9 @@ import Blog from "../pages/blog/index";
 import LandingPage from "./LandingPage/index";
 import UseEffectPractice from "./UseEffectPractice/index";
 import UseReducer from "./UseReducer";
+import UseCallBack from "./useCallBack";
+import UseRef from "./UseRef";
+import APICosume from "./API";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +25,9 @@ export default function Home() {
      {/* <Blog />  */}
      {/* <UseStatePractice /> */}
      {/* <UseEffectPractice /> */}
+     {/* <UseCallBack /> */}
+     {/* <UseRef /> */}
+     {/* <APICosume /> */}
      {/* <UseReducer /> */}
     </>
     
